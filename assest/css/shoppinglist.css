@@ -1,0 +1,87 @@
+body {
+  font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2bc0e4 10%, #eaecc6 90%) no-repeat;
+  height: 600px;
+}
+
+h1 {
+  background: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+input {
+  background-color: rgb(229, 235, 248);
+}
+
+#item {
+  font-size: 18px;
+  color: #2980b9;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(197, 62, 73, 0);
+}
+
+#quantity {
+  font-size: 18px;
+  color: #2980b9;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+#item.focus {
+  background: rgb(206, 17, 17);
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#quantity.focus {
+  /* background: #fff; */
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#container {
+  width: 700px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  width: auto;
+  height: auto;
+  background-color: rgb(229, 235, 248);
+}
+
+#myTable {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(236, 247, 212);
+}
+
+#myTable td {
+  text-align: center;
+}
+
+#grabMe {
+  background-color: #dafce3;
+  color: darkblue;
+  border-radius: 20%;
+  width: 60px;
+  height: 40px;
+}
+
+i {
+  color: red;
+}
+
+#myTable th {
+  color: rgb(2, 2, 51);
+  background: rgb(247, 221, 174);
+}
